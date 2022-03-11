@@ -12,7 +12,6 @@ import lombok.Getter;
 import me.aleiv.core.paper.commands.ResourcePackCMD;
 import me.aleiv.core.paper.objects.ResourcePack;
 import me.aleiv.core.paper.utilities.JsonConfig;
-import net.kyori.adventure.text.minimessage.MiniMessage;
 
 @SpigotPlugin
 public class Core extends JavaPlugin {
@@ -20,7 +19,6 @@ public class Core extends JavaPlugin {
     private static @Getter Core instance;
     private @Getter PaperCommandManager commandManager;
     private @Getter ResourcePackManager resourcePackManager;
-    private @Getter static MiniMessage miniMessage = MiniMessage.get();
     private @Getter Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     @Override
