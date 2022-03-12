@@ -1,4 +1,4 @@
-package me.aleiv.core.paper.objects;
+package me.aleiv.resourcepackmanager.objects;
 
 import lombok.Data;
 

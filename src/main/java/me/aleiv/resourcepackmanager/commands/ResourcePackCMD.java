@@ -1,7 +1,8 @@
-package me.aleiv.core.paper.commands;
+package me.aleiv.resourcepackmanager.commands;
 
 import com.google.common.collect.ImmutableList;
 
+import me.aleiv.resourcepackmanager.Core;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -13,8 +14,7 @@ import co.aikar.commands.annotation.CommandPermission;
 import co.aikar.commands.annotation.Flags;
 import co.aikar.commands.annotation.Subcommand;
 import lombok.NonNull;
-import me.aleiv.core.paper.Core;
-import me.aleiv.core.paper.objects.ResourcePack;
+import me.aleiv.resourcepackmanager.objects.ResourcePack;
 import net.md_5.bungee.api.ChatColor;
 
 @CommandAlias("rp|resourcepack")

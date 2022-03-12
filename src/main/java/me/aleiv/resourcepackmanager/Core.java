@@ -1,4 +1,4 @@
-package me.aleiv.core.paper;
+package me.aleiv.resourcepackmanager;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -9,9 +9,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 import co.aikar.commands.PaperCommandManager;
 import kr.entree.spigradle.annotations.SpigotPlugin;
 import lombok.Getter;
-import me.aleiv.core.paper.commands.ResourcePackCMD;
-import me.aleiv.core.paper.objects.ResourcePack;
-import me.aleiv.core.paper.utilities.JsonConfig;
+import me.aleiv.resourcepackmanager.commands.ResourcePackCMD;
+import me.aleiv.resourcepackmanager.objects.ResourcePack;
+import me.aleiv.resourcepackmanager.utilities.JsonConfig;
 
 @SpigotPlugin
 public class Core extends JavaPlugin {
